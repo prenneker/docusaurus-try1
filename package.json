@@ -9,7 +9,7 @@
     "build": "docusaurus build",
     "build:analyze": "npm run build -- --bundle-analyzer",
     "swizzle": "docusaurus swizzle",
-    "deploy": "docusaurus deploy",
+    "deploy": "GIT_USER=prenneker docusaurus deploy",
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
     "serve:build": "npm run build && npm run serve",
